@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  <center>
+    <div>
+      <table border="2px solid black">
+        <tr>
+          <th bgcolor="blue" colspan="3">Step 1: Your Details</th>
+        </tr>
+
+        <tr bgcolor="lightblue">
+          <td>Name:</td>
+          <td colspan="2"><input type="text" placeholder="First and Last Name"></td>
+        </tr>
+
+        <tr bgcolor="lightblue">
+          <td>Email:</td>
+          <td colspan="2"><input type="email" placeholder="example@gmail.com"></td>
+        </tr>
+
+        <tr bgcolor="lightblue">
+          <td>Phone:</td>
+          <td colspan="2"><input type="number" placeholder="e.g +34#######"></td>
+        </tr>
+
+        <tr>
+          <th bgcolor="green" colspan="3">Step 2: Delivery Address</th>
+        </tr>
+
+        <tr bgcolor="lightgreen">
+          <td>Address:</td>
+          <td colspan="2"><textarea name="comment" cols="21" rows="5"></textarea></td>
+        </tr>
+
+        <tr bgcolor="lightgreen">
+          <td>Post code:</td>
+          <td colspan="2"><input type="number"></td>
+        </tr>
+
+        <tr bgcolor="lightgreen">
+          <td>Country:</td>
+          <td colspan="2"><input type="text"></td>
+        </tr>
+
+        <tr>
+          <th bgcolor="orange" colspan="3">Step 3: Card Details</th>
+        </tr>
+
+        <tr bgcolor="lightcoral">
+          <td bgcolor="orange" colspan="3"><strong>Card Type</strong></td>
+        </tr>
+
+        <tr bgcolor="lightcoral" class="input">
+          <td><input type="radio" name="card" value="Debit">Debit</td>
+          <td><input type="radio" name="card" value="Credit">Credit</td>
+          <td><input type="radio" name="card" value="Multiple">Multiple</td>
+        </tr>
+
+        <tr bgcolor="lightcoral">
+          <td>Card Num</td>
+          <td colspan="2"><input type="number"></td>
+        </tr>
+
+        <tr bgcolor="lightcoral">
+          <td>Security Code</td>
+          <td colspan="2"><input type="password"></td>
+        </tr>
+
+        <tr bgcolor="lightcoral">
+          <td>Name on Card</td>
+          <td colspan="2"><input type="text" placeholder="Enter name as on the card"></td>
+        </tr>
+
+        <tr>
+          <th bgcolor="lightcoral" colspan="3"><button><i>BUY IT!</i></button></th>
+          <input type="hidden">
+        </tr>
+
+      </table>
+    </div>
+  </center>
+</body>
+</html>
